@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:theme="@style/AppTheme"
+    tools:context="com.casa.luis.fitatec.Menu"
+    android:background="#F0FFF0">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/ll_menuPlanos"
+        android:orientation="vertical"
+        >
+
+    </LinearLayout>
+
+    <!--
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:text="Plano de Pernas"
+        android:id="@+id/button"
+        android:gravity="center"
+        android:textColor="#ffffff"
+        android:background="#232323"
+        android:fontFamily="serif"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="65dp"
+        android:nestedScrollingEnabled="true"
+        android:onClick="plano" />
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:text="Plano de bicep"
+        android:id="@+id/button2"
+        android:gravity="center"
+        android:textColor="#ffffff"
+        android:background="#232323"
+        android:fontFamily="serif"
+        android:layout_below="@+id/button"
+        android:layout_alignStart="@+id/button"
+        android:layout_marginTop="25dp" />
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:text="Plano personalizado"
+        android:id="@+id/button3"
+        android:gravity="center"
+        android:textColor="#ffffff"
+        android:background="#232323"
+        android:fontFamily="serif"
+        android:layout_below="@+id/button9"
+        android:layout_alignStart="@+id/button9"
+        android:layout_marginTop="25dp" />
+
+    <ImageView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:id="@+id/imageView2"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:src="@drawable/icon" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="FitAtec"
+        android:id="@+id/textView2"
+        android:fontFamily="serif"
+        android:layout_alignBottom="@+id/imageView2"
+        android:layout_toStartOf="@+id/imageView2"
+        android:textStyle="bold"
+        android:layout_marginRight="5dp"
+        android:textColor="#232323" />
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:text="Plano de tricep"
+        android:id="@+id/button5"
+        android:gravity="center"
+        android:textColor="#ffffff"
+        android:background="#232323"
+        android:fontFamily="serif"
+        android:layout_below="@+id/button10"
+        android:layout_alignStart="@+id/button10"
+        android:layout_marginTop="25dp" />
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:text="Plano de Peito"
+        android:id="@+id/button9"
+        android:gravity="center"
+        android:textColor="#ffffff"
+        android:background="#232323"
+        android:fontFamily="serif"
+        android:layout_below="@+id/button5"
+        android:layout_alignStart="@+id/button5"
+        android:layout_marginTop="25dp" />
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:text="Plano de Ombros"
+        android:id="@+id/button8"
+        android:gravity="center"
+        android:textColor="#ffffff"
+        android:background="#232323"
+        android:fontFamily="serif"
+        android:layout_below="@+id/button2"
+        android:layout_alignStart="@+id/button2"
+        android:layout_marginTop="25dp" />
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:text="Plano de Costas"
+        android:id="@+id/button10"
+        android:gravity="center"
+        android:textColor="#ffffff"
+        android:background="#232323"
+        android:fontFamily="serif"
+        android:layout_below="@+id/button8"
+        android:layout_alignStart="@+id/button8"
+        android:layout_marginTop="25dp" />
+
+        -->
+</RelativeLayout>
