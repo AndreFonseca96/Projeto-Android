@@ -54,7 +54,7 @@ public class Database {
         PlanoPessoal ppback = new PlanoPessoal();
 
         //Hyperextention
-        Exercicio exhyper = new Exercicio("Hyperextention",0,12,4,R.drawable.hyperextension);
+        Exercicio exhyper = new Exercicio("Hiperextensões",0,12,4,R.drawable.hyperextension);
 
         //Wide-Grip Pull-Up
         Exercicio widegrip= new Exercicio("Wide-Grip Pull-Up",0,10,2,R.drawable.wide_grip_pull_up);
